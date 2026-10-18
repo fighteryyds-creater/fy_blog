@@ -1,5 +1,4 @@
-site_name: 日笺
-site_description: 张佳昕的日记。本地文件夹是 Repo2，写法与原来的 fy-blog 相同。
+site_name: fighter YYDS
 site_url: https://fighteryyds-creater.github.io/fy_blog/
 repo_url: https://github.com/fighteryyds-creater/fy_blog
 repo_name: fy_blog
@@ -7,22 +6,22 @@ docs_dir: docs
 
 theme:
   name: material
-  language: zh
   icon:
     logo: material/library
   palette:
-    - scheme: default
-      primary: indigo
-      accent: orange
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
       toggle:
-        icon: material/weather-night
-        name: 切换至夜间模式
-    - scheme: slate
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
       primary: indigo
       accent: orange
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
+
   features:
     - navigation.tabs
     - navigation.top
@@ -30,6 +29,7 @@ theme:
     - navigation.expand
     - search.suggest
     - search.highlight
+  language: zh
 
 nav:
   - 主页:
@@ -44,7 +44,6 @@ nav:
   - 考研:
       - 题目: kaoyan/questions.md
       - 思想: kaoyan/thinkings.md
-
 plugins:
   - search
   - mermaid2:
@@ -52,13 +51,15 @@ plugins:
         theme: light
 
 extra_css:
-  - mkdocs/css/no-footer.css
-
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
   homepage: https://fighteryyds-creater.github.io/fy_blog/
-  social:
+  social: # icons
+    #   - icon: fontawesome/brands/bilibili
+    #     link: https://space.bilibili.com/1436476753
+    #     name: Bilibili | 浩哈哈哈哈 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
       link: https://github.com/fighteryyds-creater
       name: GitHub | fighteryyds-creater
-
-copyright: Copyright © 2023-现在 张佳昕
+## [bottom-left corner]
+copyright: Copyright &copy; 2023-现在 张佳昕 # 左下角的版权声明
