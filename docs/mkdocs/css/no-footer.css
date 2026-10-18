@@ -1,0 +1,4 @@
+/* 不使用底部的翻页，和原来的 fy-blog 一样 */
+.md-footer__inner {
+  display: none;
+}

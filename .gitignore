@@ -1,0 +1,11 @@
+site/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+*.swo
+*.swn
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

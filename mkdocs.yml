@@ -1,0 +1,64 @@
+site_name: 日笺
+site_description: 张佳昕的日记。本地文件夹是 Repo2，写法与原来的 fy-blog 相同。
+site_url: https://fighteryyds-creater.github.io/Repo2/
+repo_url: https://github.com/fighteryyds-creater/Repo2
+repo_name: Repo2
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/library
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: 切换至夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 主页:
+      - 主页: index.md
+      - 友链: youlian.md
+  - 技术:
+      - Linux: skills/Linux.md
+      - c语言: skills/c.md
+      - 文章: skills/article.md
+      - 书籍: skills/book.md
+      - github&git: skills/git.md
+  - 考研:
+      - 题目: kaoyan/questions.md
+      - 思想: kaoyan/thinkings.md
+
+plugins:
+  - search
+  - mermaid2:
+      arguments:
+        theme: light
+
+extra_css:
+  - mkdocs/css/no-footer.css
+
+extra:
+  homepage: https://fighteryyds-creater.github.io/Repo2/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fighteryyds-creater
+      name: GitHub | fighteryyds-creater
+
+copyright: Copyright © 2023-现在 张佳昕
