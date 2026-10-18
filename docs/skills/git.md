@@ -1,6 +1,6 @@
 # github&git
 
-Repo2 是本地仓库，远程是 [fighteryyds-creater/Repo2](https://github.com/fighteryyds-creater/Repo2)。
+本地文件夹 Repo2 的远程仓库是 [fighteryyds-creater/fy_blog](https://github.com/fighteryyds-creater/fy_blog)。
 
 ```bash
 git status

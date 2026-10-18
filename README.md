@@ -2,7 +2,7 @@
 
 张佳昕的日记。写法和原来的 [fy-blog](https://fighteryyds.github.io/fy-blog/) 一样：MkDocs Material，日记是一篇 Markdown。
 
-本地文件夹用图里的 **Repo2**。旧的 **Repo** 仍连着旧账号 `fighteryyds`，不要改它。新的远程仓库用 GitHub 账号 [fighteryyds-creater](https://github.com/fighteryyds-creater)。
+本地文件夹用图里的 **Repo2**。旧的 **Repo** 仍连着旧账号 `fighteryyds`，不要改它。Repo2 的远程仓库是 [fighteryyds-creater/fy_blog](https://github.com/fighteryyds-creater/fy_blog)。
 
 ## 一天怎么写
 
@@ -43,21 +43,15 @@ mkdocs serve
 
 浏览器打开 <http://127.0.0.1:8000>。
 
-## 接到新的 GitHub 账号
+## 远程仓库
 
-在 GitHub 账号 `fighteryyds-creater` 下新建一个空仓库，名字用 `Repo2`（不要勾选自动生成 README）。然后在本地 Repo2 文件夹里：
+GitHub 仓库是 `fighteryyds-creater/fy_blog`。在本地 Repo2 文件夹里：
 
 ```bash
-git init
-git add .
-git commit -m "日起一本新的日记"
-git branch -M main
-git remote add origin git@github.com:fighteryyds-creater/Repo2.git
+git remote add origin git@github.com:fighteryyds-creater/fy_blog.git
 git push -u origin main
 ```
 
 推送到 `main` 或 `master` 后，`.github/workflows/ci.yml` 会安装 MkDocs 并发布到 `gh-pages`。仓库 Settings → Pages 里把来源选成 `gh-pages` 分支。站点地址是：
 
-<https://fighteryyds-creater.github.io/Repo2/>
-
-如果仓库不叫 `Repo2`，改 `mkdocs.yml` 里的 `site_url`、`repo_url` 和 `extra.homepage`，让它们和真实仓库名一致，否则页面上的样式路径会错。
+<https://fighteryyds-creater.github.io/fy_blog/>

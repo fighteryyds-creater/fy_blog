@@ -1,8 +1,8 @@
 site_name: 日笺
 site_description: 张佳昕的日记。本地文件夹是 Repo2，写法与原来的 fy-blog 相同。
-site_url: https://fighteryyds-creater.github.io/Repo2/
-repo_url: https://github.com/fighteryyds-creater/Repo2
-repo_name: Repo2
+site_url: https://fighteryyds-creater.github.io/fy_blog/
+repo_url: https://github.com/fighteryyds-creater/fy_blog
+repo_name: fy_blog
 docs_dir: docs
 
 theme:
@@ -55,7 +55,7 @@ extra_css:
   - mkdocs/css/no-footer.css
 
 extra:
-  homepage: https://fighteryyds-creater.github.io/Repo2/
+  homepage: https://fighteryyds-creater.github.io/fy_blog/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/fighteryyds-creater
