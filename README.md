@@ -7,11 +7,9 @@
 ```
 docs/index.md            主页，一天一个 ### 2026.10.18
 docs/index/              日记照片
-docs/youlian.md          友链
-docs/skills/             技术：Linux、c语言、文章、书籍、github&git
-docs/kaoyan/             考研：题目、思想
+docs/skills/             技术：Linux、c语言、文章、书籍
 docs/habit/painting.md   习惯
-mkdocs.yml               顶栏：主页 / 技术 / 考研
+mkdocs.yml               顶栏：主页 / 技术
 ```
 
 预览：
