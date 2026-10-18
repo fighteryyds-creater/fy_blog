@@ -1,0 +1,31 @@
+/* 排版规范化：段落不首行缩进，强调用粗体不用斜体。
+   中英文之间的空格写在 Markdown 里，不用 text-autospace，避免空格被加两次。 */
+
+.md-typeset {
+  line-height: 1.8;
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset dd,
+.md-typeset blockquote,
+.md-typeset td {
+  text-indent: 0;
+}
+
+.md-typeset em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.md-typeset pre,
+.md-typeset pre code,
+.md-typeset code {
+  line-height: 1.55;
+}
+
+.md-typeset pre em,
+.md-typeset code em {
+  font-style: inherit;
+  font-weight: inherit;
+}
