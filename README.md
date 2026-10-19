@@ -7,7 +7,7 @@
 ```
 docs/index.md            主页，一天一个 ### 2026.10.18
 docs/index/              日记照片
-docs/skills/             技术：Linux、C 语言、文章、书籍
+docs/skills/             技术：Linux、C 语言、文章、书籍、技术问题的解决
 docs/habit/painting.md   习惯
 mkdocs.yml               顶栏：主页 / 技术
 ```

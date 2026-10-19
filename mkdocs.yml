@@ -38,6 +38,12 @@ nav:
       - C 语言: skills/c.md
       - 文章: skills/article.md
       - 书籍: skills/book.md
+      - 技术问题的解决:
+          - 博客问题: skills/problems/blog.md
+          - 终端代理配置: skills/problems/proxy.md
+          - GitHub 22 端口: skills/problems/github-22.md
+          - iCloud 在 Mac 的位置: skills/problems/icloud.md
+          - Intel Mac 安装 Linux 双系统无法联网: skills/problems/intel-mac-linux.md
 plugins:
   - search
   - mermaid2:
