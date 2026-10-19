@@ -29,20 +29,3 @@
   font-style: inherit;
   font-weight: inherit;
 }
-
-/* 技术问题的解决的子页在右侧，样式对齐左侧的 C 语言等条目。 */
-.md-nav--siblings .md-nav__link {
-  margin-top: 0.625em;
-}
-
-.md-nav--siblings .md-nav__item--active > .md-nav__link {
-  font-weight: 700;
-}
-
-@media screen and (min-width: 76.25em) {
-  .md-nav__item--problems > .md-nav__toggle,
-  .md-nav__item--problems > nav.md-nav,
-  .md-nav__item--problems > .md-nav__container > label {
-    display: none;
-  }
-}
