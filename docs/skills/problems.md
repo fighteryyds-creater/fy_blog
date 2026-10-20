@@ -79,6 +79,8 @@ NAT + TUN。虚拟机处于 NAT 模式时，Ubuntu 发出的连接由宿主机�
 
 桥接 + 指向 Windows 的局域网 IP。桥接后，虚拟机和 Windows 是同一局域网里的两台机器，Ubuntu 能直接访问 Windows 的局域网地址。打开 ALLOW LAN，让 Clash 的代理端口监听在这块网卡上，而不只是本机回环地址。Ubuntu 把 `http_proxy`、`https_proxy` 指到 Windows 局域网 IP 和端口后，认代理的程序会主动把请求发给 Clash，再由 Clash 转发出去。
 
+![ ](problems/304c80b3f54018d746bcc9601a9c67c0.png)
+
 ## GitHub 22 端口
 
 来源：<https://help.huacloud.dev/知识清单/github无法使用22端口拉取代码的解决方法>
