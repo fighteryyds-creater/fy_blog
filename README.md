@@ -1,7 +1,5 @@
 # fy_blog
 
-张佳昕的日记。结构和原来的 [fy-blog](https://github.com/fighteryyds/fy-blog) 一样，站点版式也和 [fighteryyds.github.io/fy-blog](https://fighteryyds.github.io/fy-blog/) 一样。
-
 远程仓库是 [fighteryyds-creater/fy_blog](https://github.com/fighteryyds-creater/fy_blog)。本地文件夹用 Repo2。
 
 ```
